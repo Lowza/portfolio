@@ -1,5 +1,6 @@
 import './App.css';
 import UnderscoreSpring from './modules/UnderscoreSpring';
+import Skills from './components/Skills';
 
 function App() {
   return (
@@ -18,15 +19,7 @@ function App() {
           <p>My name is Jack Lomax, I am a full stack web developer based in Axminster, Devon, UK. I started learning web development from home in 2023 through online courses and resources.</p>
           <p>I am passionate about building intuitive and eloquent websites and am looking for a junior dev position to finally kick start my career and learn among professionals.</p>
         </section>
-        <section>
-          <h2>Skills</h2>
-          <ol>
-            <li>Javascript ES6(+)</li>
-            <li>React</li>
-            <li>Node.js</li>
-            <li>Express</li>
-          </ol>
-        </section>
+        <Skills />
       </main>
     </div>
   );
