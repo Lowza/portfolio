@@ -10,15 +10,23 @@ body {
   background-color: hsla(0, 0%, 90%, 50);
 }
 
+main {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1400px;
+}
+
 nav {
   width: 80%;
-  height: 200px;
+  max-width: 1400px;
+  height: auto;
   margin: 0 auto;
   display: flex;
-  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 section {
+  min-width: 400px;
   width: 80%;
   margin: 30px auto;
   padding: 0 0 50px 0;
@@ -85,13 +93,3 @@ p {
   background-color: white;
   color:hsla(0, 0%, 10%, 50);
 }
-
-@media only screen and (min-width: 1920px) {
-  nav {
-    width: 50%;
-  }
-  main {
-    width: 50%;
-  }
-}
-
