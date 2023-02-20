@@ -9,12 +9,12 @@ function App() {
   return (
     <div className="App">
       <nav>
-        <h1>Jack Lomax, Web Developer {UnderscoreSpring()}</h1>
-        <ul>
+        <h1>Jack Lomax</h1><h1 id="lower-h1">Web Developer{UnderscoreSpring()}</h1>
+        <ol>
           <li>About me</li>
           <li>Projects</li>
           <li>Contact</li>
-        </ul>
+        </ol>
       </nav>
       <main>
         <About />

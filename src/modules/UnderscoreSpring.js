@@ -9,9 +9,7 @@ const UnderscoreSpring = () => {
     });
 
     return (
-        <animated.div style={styles}>
-            _
-        </animated.div>
+        <animated.div style={styles}>_</animated.div>
     );
 }
 
