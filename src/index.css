@@ -67,6 +67,11 @@ p {
   text-align: left;
 }
 
+nav li:hover {
+  color: hsla(100, 60%, 50%, 100);
+  cursor: pointer;
+}
+
 #expressLogo {
   background-color: white;
 }
