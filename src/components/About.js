@@ -1,6 +1,6 @@
 function About() {
     return (
-        <section id="about me">
+        <section id="about">
           <h2>About me</h2>
           <p>My name is Jack Lomax, I am a full stack web developer based in Axminster, Devon, UK. I started learning web development from home in 2022 through online courses and resources.</p>
           <p>I am passionate about building intuitive and eloquent websites and am looking for a junior dev position to kick start my career and learn among professionals.</p>
