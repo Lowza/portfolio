@@ -15,6 +15,7 @@ function Contact() {
                 <textarea placeholder="Message" type="textarea" name="message"/>
 
                 <button type="submit">Submit</button>
+                <input type="hidden" name="_next" value="https://lowza.github.io/portfolio/"></input>
             </form>
         </section>
     )
