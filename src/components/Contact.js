@@ -16,6 +16,7 @@ function Contact() {
 
                 <button type="submit">Submit</button>
                 <input type="hidden" name="_next" value="https://lowza.github.io/portfolio/"></input>
+                <input type="hidden" name="_captcha" value="false"></input>
             </form>
         </section>
     )
