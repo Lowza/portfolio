@@ -19,10 +19,10 @@ export default function About() {
       >
         <SectionHeading>About me</SectionHeading>
         <p className='mb-3'>
-          After leaving school I became a carpet fitter and successfully ran my own carpet fitting business. After 6 years I decided I didn't want the knee problems that often come with this type of job later down the line, so I decided to change careers. Having always had an interest in computers I settled on web development.
+          After leaving school I became a carpet fitter and successfully ran my own carpet fitting business. After 6 years I decided I didn&apos;t want the knee problems that often come with this type of job later down the line, so I decided to change careers. Having always had an interest in computers I settled on web development.
         </p>
         <p>
-          My focus is <span className='font-bold underline'>React(Next.js)</span> and I'm looking for a junior dev position to kick start my career and learn among professionals.
+          My focus is <span className='font-bold underline'>React(Next.js)</span> and I&apos;m looking for a junior dev position to kick start my career and learn among professionals.
         </p>
       </motion.section>
     )

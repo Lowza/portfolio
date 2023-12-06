@@ -56,7 +56,7 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        My name is <span className='font-bold'>Jack Lomax</span>, I'm a <span className='font-bold'>full stack web developer</span> based in Axminster, Devon, UK.
+        My name is <span className='font-bold'>Jack Lomax</span>, I&apos;m a <span className='font-bold'>full stack web developer</span> based in Axminster, Devon, UK.
       </motion.h1>
 
       <motion.div 
