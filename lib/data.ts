@@ -53,22 +53,25 @@ export const projectsData = [
     title: "CorpComment",
     description:
       "Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+    tags: ["HTML", "CSS", "JavaScript", "Node", "Express"],
     imageUrl: corpcommentImg,
+    projectUrl: "https://corpcomment.online",
   },
   {
     title: "rmtDev",
     description:
       "Job board for remote developer jobs. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+    tags: ["HTML", "CSS", "JavaScript", "Node", "Express"],
     imageUrl: rmtdevImg,
+    projectUrl: "https://rmtdev.online",
   },
   {
     title: "Word Analytics",
     description:
       "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+    tags: ["HTML", "CSS", "JavaScript"],
     imageUrl: wordanalyticsImg,
+    projectUrl: "https://word-analytics.online",
   },
 ] as const;
 
@@ -85,5 +88,4 @@ export const skillsData = [
   "Express",
   "PostgreSQL",
   "Framer Motion",
-  "MongoDB"
 ] as const;
